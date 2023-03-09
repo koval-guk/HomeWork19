@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class TestRunner {
-    public static void start(Class c) {
+    public static void start(Class<?> c) {
         List<Method> testList = new ArrayList<>();
         Method before = null;
         Method after = null;
